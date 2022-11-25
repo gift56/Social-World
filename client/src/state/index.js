@@ -33,7 +33,7 @@ export const authSlice = createSlice({
       state.posts = action.payload.posts;
     },
     setPost: (state, action) => {
-        
+        const updatedPosts=state.posts
     },
   },
 });
