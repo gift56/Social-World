@@ -1,7 +1,11 @@
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 
 const App = () => {
-  return <div>App</div>;
+  return (
+    <div>
+      <HomePage />
+    </div>
+  );
 };
 
 export default App;
