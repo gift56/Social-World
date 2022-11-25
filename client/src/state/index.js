@@ -37,6 +37,7 @@ export const authSlice = createSlice({
         if (post._id === action.payload.post_id) return action.payload.post;
         return post;
       });
+      state.posts = updatedPosts;
     },
   },
 });
