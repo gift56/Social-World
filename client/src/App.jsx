@@ -9,8 +9,9 @@ import { createTheme } from "@mui/material/styles";
 import { themeSettings } from "./theme";
 
 const App = () => {
+  // getting mode from redux state
   const mode = useSelector((state) => state.mode);
-  
+
   return (
     <div>
       <Routes>
