@@ -18,6 +18,7 @@ const App = () => {
   return (
     <div>
       <ThemeProvider theme={theme}>
+        <CssBaseline />
         <Routes>
           <Route path="/" element={<LoginPage />} />
           <Route path="/home" element={<HomePage />} />
