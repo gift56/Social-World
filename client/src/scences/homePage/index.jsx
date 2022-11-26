@@ -1,8 +1,12 @@
 import { Box } from "@mui/material";
-
+import Navbar from "../../scences/navbar";
 
 const HomePage = () => {
-  return <Box>HomePage</Box>;
+  return (
+    <Box>
+      <Navbar />
+    </Box>
+  );
 };
 
 export default HomePage;
