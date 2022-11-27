@@ -14,6 +14,8 @@ const App = () => {
   // Using use memo from react to create theme
   const theme = useMemo(() => createTheme(themeSettings(mode)), [mode]);
 
+  const isAuth = Boolean(useSelector((state) => state.token));
+
   return (
     <div>
       <ThemeProvider theme={theme}>
