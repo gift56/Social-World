@@ -1,12 +1,8 @@
 import { Box } from "@mui/material";
 import { styled } from "@mui/system";
 
-const UserImage = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
+const UserImage = ({ image, size = "60px" }) => {
+  return <div></div>;
+};
 
-export default UserImage
+export default UserImage;
