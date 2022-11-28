@@ -36,7 +36,46 @@ const Friend = ({ friendId, name, subtitle, userPicturePath }) => {
     dispatch(setFriends({ friends: data }));
   };
 
-  return <div>Friend</div>;
+  return (
+    <FlexBetween>
+      <FlexBetween gap="1rem">
+        <UserImage image={userPicturePath} size="55px" />
+        <Box
+          onClick={() => {
+            navigate(`/profile/${friendId}`);
+            navigate(0);
+          }}
+        >
+          <Typography
+            color={main}
+            variant="h5"
+            fontWeight="500"
+            sx={{
+              "&:hover": {
+                color: palette.primary.light,
+                cursor: "pointer",
+              },
+            }}
+          >
+            {name}
+          </Typography>
+          <Typography color={medium} fontSize="0.75rem">
+            {subtitle}
+          </Typography>
+        </Box>
+      </FlexBetween>
+      <IconButton
+        onClick={() => patchFriend()}
+        sx={{ backgroundColor: primaryLight, p: "0.6rem" }}
+      >
+        {isFriend ? (
+          <PersonRemoveOutlined sx={{ color: primaryDark }} />
+        ) : (
+          <PersonAddOutlined sx={{ color: primaryDark }} />
+        )}
+      </IconButton>
+    </FlexBetween>
+  );
 };
 
 export default Friend;
