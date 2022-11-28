@@ -1,9 +1,5 @@
-
-
 const MyPostWidget = () => {
-  return (
-    <div>MyPostWidget</div>
-  )
-}
+  return <div>MyPostWidget</div>;
+};
 
-export default MyPostWidget
+export default MyPostWidget;
