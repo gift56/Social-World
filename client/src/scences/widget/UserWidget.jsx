@@ -12,7 +12,7 @@ import WidgetWrapper from "../../components/WidgetWrapper";
 import { useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 
-const UserWidget = () => {
+const UserWidget = ({ userId, picturePath }) => {
   return <div>UserWidget</div>;
 };
 
