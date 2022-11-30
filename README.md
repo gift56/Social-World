@@ -18,7 +18,7 @@ The package manager responsible for the build process is _NPM_.
 
 To setup this project:
 
--First step is to clone this repository on github https://github.com/gift56/Social-World
+-First step is to clone this repository on github (https://github.com/gift56/Social-World)
 -cd client
 -Run npm install on your terminal
 -Run npm run dev to start client server.
