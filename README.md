@@ -4,7 +4,7 @@ for deployment npm run build
 
 ## This is the official codebase for Social_world project
 
-Open [Social_world]() to preview the complete projects.
+Open [Social_world](https://social-world.vercel.app/) to preview the complete projects.
 
 ## Description
 
