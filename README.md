@@ -20,8 +20,8 @@ To setup this project:
 
 -First step is to clone this repository on github https://github.com/gift56/Social-World
 -cd client
--npm install to install all dependances
-
+-Run npm install on your terminal
+-Run npm run dev to start client server.
 
 ## Usage
 
