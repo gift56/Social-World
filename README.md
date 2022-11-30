@@ -1,16 +1,13 @@
 ## Social_World
 
-for deployment npm run build && next build && next export to upload on aws server close local sever first
+for deployment npm run build
 
-## This is the official codebase for ATC
+## This is the official codebase for Social_world project
 
-This page is under construction.
-
-Open [ATC](https://atcwebsite-omega.vercel.app/) to preview the update.
+Open [Social_world](https://atcwebsite-omega.vercel.app/) to preview the complete projects.
 
 ## Description
-
-This codebase is the frontend part of the website, containing 9 pages of documentation.
+This codebase is the frontend part of the website, containing 6 pages of documentation.
 
 ## Package Manager
 
@@ -22,13 +19,6 @@ To setup this project First step is to run `"npm i"` to install necessary packag
 // build the project
 `"npm run build"`
 
-## Directories
-
-This project consist of 6 major directories including the node module.
-
-## AirBnB clone - The console
-
-![hbnb_clone](https://user-images.githubusercontent.com/101478509/187341550-b4c53188-a061-4634-84e5-2bb00786c154.png)
 
 ## Usage
 
