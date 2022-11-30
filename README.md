@@ -7,6 +7,7 @@ for deployment npm run build
 Open [Social_world]() to preview the complete projects.
 
 ## Description
+
 This codebase is the frontend part of the website, containing 6 pages of documentation.
 
 ## Package Manager
@@ -15,8 +16,9 @@ The package manager responsible for the build process is _NPM_.
 
 ## Setup
 
-To setup this project First step is to clone this repository on github https://atcwebsite-omega.vercel.app/
+To setup this project:
 
+-First step is to clone this repository on github https://github.com/gift56/Social-World
 
 ## Usage
 
@@ -81,6 +83,7 @@ The test for the classes are in the [test_models](./tests/test_models/) folder.
 ---
 
 ## Built by:
+
 Efe Asieghwu <efeasiughu@gmail.com>
 
 - **Efe G** -[gift56](https://github.com/gift56)
