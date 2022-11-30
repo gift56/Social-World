@@ -106,7 +106,7 @@ The test for the classes are in the [test_models](./tests/test_models/) folder.
 
 ## Issues
 
-> Report issues/bug here: [Issues](https://github.com/Ade2002/printf/issues)
+> Report issues/bug here: [Issues](https://github.com/gift56)
 
 ---
 
