@@ -4,7 +4,7 @@ for deployment npm run build
 
 ## This is the official codebase for Social_world project
 
-Open [Social_world](https://atcwebsite-omega.vercel.app/) to preview the complete projects.
+Open [Social_world]() to preview the complete projects.
 
 ## Description
 This codebase is the frontend part of the website, containing 6 pages of documentation.
@@ -15,9 +15,7 @@ The package manager responsible for the build process is _NPM_.
 
 ## Setup
 
-To setup this project First step is to run `"npm i"` to install necessary packages. After package installation `"npm run dev "` to run localhost on port 3000 in your browser.
-// build the project
-`"npm run build"`
+To setup this project First step is to clone this repository on github https://atcwebsite-omega.vercel.app/
 
 
 ## Usage
