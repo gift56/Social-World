@@ -49,19 +49,6 @@ Interactive mode example
 
 ---
 
-Non-interactive mode example
-
-```bash
-$ echo "help" | ./console.py
-(hbnb)
-
-Documented commands (type help <topic>):
-========================================
-EOF  all  count  create  destroy  help  quit  show  update
-```
-
----
-
 ## Tests
 
 ---
