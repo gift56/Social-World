@@ -24,11 +24,11 @@ const App = () => {
           <Route path="/" element={<LoginPage />} />
           <Route
             path="/home"
-            element={isAuth ? <HomePage /> : <Navigator to="/" />}
+            element={isAuth ? <HomePage /> : <Navigate to="/" />}
           />
           <Route
             path="/profile/:userId"
-            element={isAuth ? <ProfilePage /> : <Navigator to="/" />}
+            element={isAuth ? <ProfilePage /> : <Navigate to="/" />}
           />
         </Routes>
       </ThemeProvider>
